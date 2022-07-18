@@ -14,12 +14,16 @@ class PlayerCharacter:
     def run(self):
         print("run")
         return 'done'
-    # @classmethod
-    # def adding_thing(num1, num2):
-    #     return num1 + num2
+    @classmethod
+    def adding_thing(cls, num1, num2):
+        return cls('Teddy', num1 + num2)
+
+    @staticmethod
+    def adding_thing( num1, num2):
+        return  num1 + num2
 
 player1 = PlayerCharacter('Laurent', 19)
 player1.attack=50
-print(player1.shout())
+print(PlayerCharacter.adding_thing(2,7))
 
 
