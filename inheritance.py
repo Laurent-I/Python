@@ -1,14 +1,10 @@
 class User:
-    def __init__(self, email):
-        self.email = email
-
     def sign_in(self):
         print('Logged in!!!')
 
 
 class Wizard(User):
-    def __init__(self, name, power, email):
-        super().__init__(email)
+    def __init__(self, name, power):
         self.name = name
         self.power = power
 
@@ -24,9 +20,25 @@ class Archer(User):
     def attack(self):
         print(f'attacking with arrows: arrows left- {self.num_arrows}')
 
+    def check_arrows(self):
+        print(f'checking arrows: arrows left: {self.num_arrows}')
 
-wizard = Wizard('Merlin', 100, 'merlin@gmail.com')
-archer = Archer('Robin', 500)
-wizard.attack()
-archer.attack()
-print(dir(wizard))
+    def run(self):
+        print('Ran really fast!')
+
+
+class HybridBorg(Wizard, Archer):
+    def __init__(self, name, power, num_arrows):
+        Archer.__init__(self, name, num_arrows)
+        Wizard.__init__(self, name, power)
+
+
+hb1 = HybridBorg('Laurent', 2000, 1333)
+print(hb1.check_arrows())
+print(hb1.attack())
+print(hb1.sign_in())
+# wizard = Wizard('Merlin', 100)
+# archer = Archer('Robin', 500)
+# wizard.attack()
+# archer.attack()
+# print(dir(wizard))
