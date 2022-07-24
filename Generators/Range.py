@@ -1,7 +1,9 @@
 # Implementation of Range Functions.
+# Generators: Building our own generator function
 
 class MyGen():
     current = 0
+
     def __init__(self, first, last):
         self.first = first
         self.last = last
