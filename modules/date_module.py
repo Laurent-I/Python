@@ -1,3 +1,3 @@
-# import datetime
-#
-# print(datetime.date.today())
+import datetime
+
+print(datetime.date.today())
