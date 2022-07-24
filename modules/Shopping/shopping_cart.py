@@ -1,6 +1,6 @@
-# print(__name__)
-#
-#
-# def buy(item):
-#     cart = [item]
-#     return cart
+print(__name__)
+
+
+def buy(item):
+    cart = [item]
+    return cart
