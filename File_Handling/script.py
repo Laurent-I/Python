@@ -16,9 +16,9 @@ with open('test.txt', mode='r+') as my_file:
     print(text)
 #
 # # Appending to a file
-# with open('test.txt', mode='a+') as my_file:
-#     text = my_file.write(' :)')
-#     print(text)
+with open('test.txt', mode='a+') as my_file:
+    text = my_file.write(' :)')
+    print(text)
 #
 # # Creating a new file with write
 # with open('app/sad.txt', mode='w') as my_file:
