@@ -15,7 +15,7 @@ while True:
             print('Input a number 1 to 10')
     except ValueError:
         print('Please enter a number')
-        break
+        continue
 
 # check if the number is the right guess.
 # ask again
