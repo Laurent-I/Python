@@ -21,9 +21,9 @@ with open('test.txt', mode='a+') as my_file:
     print(text)
 #
 # # Creating a new file with write
-# with open('app/sad.txt', mode='w') as my_file:
-#     text = my_file.write(' :(')
-#     print(text)
+with open('app/sad.txt', mode='w') as my_file:
+    text = my_file.write(' :(')
+    print(text)
 
 # File Paths
 # with open('app/sad.txt', mode='r') as my_file:
