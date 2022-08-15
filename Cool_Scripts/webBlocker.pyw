@@ -17,6 +17,7 @@ while True:
                 if website in content:
                     pass
                 else:
+                    # mapping hostnames to your localhost IP address
                     file.write(redirect_path + " " + website + "\n")
     else:
         with open(hosts_path, 'r+') as file:
@@ -29,4 +30,3 @@ while True:
         print('Fun HOURS')
     time.sleep(5)
 
-    
