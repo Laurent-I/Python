@@ -1,0 +1,65 @@
+ debug: inputsel: 1 dbgctrl: 6    
+ Dump CE Register:    
+CE wrapper: 1 amdbg: c cewdbg: 1
+    module0: cedbg: 0 out: 20220
+    module1: cedbg: 1 out: ba8
+    module2: cedbg: 2 out: 20a00
+    module3: cedbg: 3 out: 24000
+    module4: cedbg: 4 out: 30000
+    module5: cedbg: 5 out: 200
+CE wrapper: 2 amdbg: c cewdbg: 2
+    module0: cedbg: 0 out: 20330
+    module1: cedbg: 1 out: 328
+    module2: cedbg: 2 out: 20200
+    module3: cedbg: 3 out: 20000
+    module4: cedbg: 4 out: 30000
+    module5: cedbg: 5 out: 200
+CE wrapper: 3 amdbg: c cewdbg: 3
+    module0: cedbg: 0 out: 20880
+    module1: cedbg: 1 out: 894
+    module2: cedbg: 2 out: 20a00
+    module3: cedbg: 3 out: 24000
+    module4: cedbg: 4 out: 30000
+    module5: cedbg: 5 out: 200
+CE wrapper: 4 amdbg: c cewdbg: 4
+    module0: cedbg: 0 out: 20660
+    module1: cedbg: 1 out: ff8
+    module2: cedbg: 2 out: 23200
+    module3: cedbg: 3 out: 38000
+    module4: cedbg: 4 out: 30000
+    module5: cedbg: 5 out: 200
+CE wrapper: 5 amdbg: c cewdbg: 5
+    module0: cedbg: 0 out: 20000
+    module1: cedbg: 1 out: 8
+    module2: cedbg: 2 out: 20200
+    module3: cedbg: 3 out: 20000
+    module4: cedbg: 4 out: 30000
+    module5: cedbg: 5 out: 200
+CE wrapper: 6 amdbg: c cewdbg: 6
+    module0: cedbg: 0 out: 20000
+    module1: cedbg: 1 out: 20aa0
+    module2: cedbg: 2 out: 22a00
+    module3: cedbg: 3 out: 34000
+    module4: cedbg: 4 out: 30000
+    module5: cedbg: 5 out: 200
+CE wrapper: 7 amdbg: c cewdbg: 7
+    module0: cedbg: 0 out: 20000
+    module1: cedbg: 1 out: 20000
+    module2: cedbg: 2 out: 21200
+    module3: cedbg: 3 out: 28000
+    module4: cedbg: 4 out: 30000
+    module5: cedbg: 5 out: 200
+CE wrapper: 8 amdbg: c cewdbg: 8
+     out: 20000
+CE wrapper: 9 amdbg: c cewdbg: 9
+     out: 20000
+ debug PCIe: 
+ amdbg: 0 out: 0 0 
+ amdbg: 8c out: 8c 8c 
+ amdbg: 4c out: 4c 4c 
+ amdbg: 32 out: 32 32 
+ amdbg: 0 out: 0 0 
+ amdbg: 1 out: 1 1 
+ amdbg: 180 out: 180 180 
+ amdbg: 0 out: 0 0 
+ amdbg: 0 out: 0 0 

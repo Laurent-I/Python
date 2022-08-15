@@ -1,0 +1,15 @@
+# Copyright (c) 1993-2001 Microsoft Corp.
+#
+# This file has been automatically generated for use by Microsoft Internet
+# Connection Sharing. It contains the mappings of IP addresses to host names
+# for the home network. Please do not make changes to the HOSTS.ICS file.
+# Any changes may result in a loss of connectivity between machines on the
+# local network.
+#
+
+172.17.32.1 Law.mshome.net # 2027 8 6 14 5 48 23 544
+
+
+ 2022 7 4 7 18 43 40 737
+#192.168.137.1 Law.mshome.net # 2027 6 2 29 19 58 11 456
+                  laravel.test
